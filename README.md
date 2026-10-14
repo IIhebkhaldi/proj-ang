@@ -1,27 +1,28 @@
-# StandaloneProject
+# Projet Angular — Application web
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.21.
+Application frontend développée avec Angular et TypeScript dans le cadre d'un projet de développement web.
 
-## Development server
+## Technologies
+Angular 18, TypeScript, HTML, CSS et Node.js.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Structure
+- `src/` : composants et code de l'application.
+- `public/` : ressources statiques.
+- `angular.json` : configuration Angular.
+- `package.json` : scripts et dépendances.
 
-## Code scaffolding
+## Installation et exécution
+```bash
+npm install
+npm start
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Si le script `start` n'est pas disponible, utiliser `npx ng serve`, puis ouvrir `http://localhost:4200/`.
 
-## Build
+## Compilation
+```bash
+npm run build
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Auteur
+Iheb Khaldi
